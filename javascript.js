@@ -1,3 +1,17 @@
+/*
+
+The following program is the javascript code behind a website that I am creating. 
+Since the creation of this javascript code, I have decided to build a react application - and this is tricky within iself. 
+
+However, I hope the basic idea is here. Essentially, the user types in a few input parameters - (patientCurrentINR, patientTargetINR, and currentDose)
+
+Then, off of that, we run javascript code to reccomend an updated dosing schedule. This program is designed to help medical professionals save time.
+
+I will have more updates ASAP. Please email me at leoverdecchia.business@gmail.com if you have any questions about the code and/or how I plan to implement 
+it within a React (or django) environment. Thank you!
+*/
+
+
 function f1(){
     var target1 = parseFloat(document.getElementById("tar1").value);
     
